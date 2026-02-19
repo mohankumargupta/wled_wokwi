@@ -3,9 +3,14 @@ version = 1
 firmware = '.pio/build/my_esp32c3dev/merged-flash.bin'
 elf = '.pio/build/my_esp32c3dev/firmware.elf'
 
-[[net.forward]]
-from = "localhost:8180"
-to = "target:80"
+[net]
+gateway = "ws://localhost:9011"
+# wokwigw --forward 8180:10.13.37.2:80 --forward udp:4048:10.13.37.2:4048 --forward udp:21324:10.13.37.2:21324
+
+
+# [[net.forward]]
+# from = "localhost:8180"
+# to = "target:80"
 
 
 

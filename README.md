@@ -15,3 +15,7 @@ copy to the **wled00/data** directory
 ## use justfile to build wled
 
 just all
+
+## Use wokwiwg to port forward tcp and udp ports
+
+https://github.com/wokwi/wokwigw/releases
