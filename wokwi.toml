@@ -1,7 +1,7 @@
 [wokwi]
 version = 1
-firmware = '.pio/build/my_esp32c3dev/firmware-merged.bin'
-elf = '.pio/build/my_esp32c3dev/firmware-merged.bin'
+firmware = '.pio/build/my_esp32c3dev/merged-flash.bin'
+elf = '.pio/build/my_esp32c3dev/firmware.elf'
 
 [[net.forward]]
 from = "localhost:8180"
